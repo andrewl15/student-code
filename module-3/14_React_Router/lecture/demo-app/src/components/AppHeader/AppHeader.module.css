@@ -1,0 +1,12 @@
+.app-header {
+  text-align: center;
+  padding: 1rem;
+  background-color: #282c34;
+  color: white;
+  font-family: 'Algerian', 'Bernard MT Condensed', 'Arial', sans-serif;
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}

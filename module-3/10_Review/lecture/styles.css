@@ -1,0 +1,12 @@
+.hidden {
+    display: none;
+}
+
+#hotel-list, #reservation-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.targetHotel {
+    background-color: limegreen;
+}

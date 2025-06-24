@@ -1,0 +1,11 @@
+.component-header {
+    font-size: 3rem;
+    color: blue;
+  }
+  
+  .language-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: green
+  }

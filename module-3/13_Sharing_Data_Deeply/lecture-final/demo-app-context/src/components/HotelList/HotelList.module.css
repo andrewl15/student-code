@@ -1,0 +1,17 @@
+.hotel-list li {
+  list-style: none;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.hotel-list li:last-child {
+  border-bottom: none;
+}
+
+.hotel-list li button {
+  background-color: #ff0040;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}

@@ -1,0 +1,17 @@
+{
+  "name": "js-essentials-pt1-exercise",
+  "version": "1.0.0",
+  "main": "exercises.js",
+  "type": "module",
+  "scripts": {
+    "start": "node exercises.js",
+    "test": "mocha tests.js"
+  },
+  "devDependencies": {
+    "chai": "^4.4.1",
+    "mocha": "^10.6.0"
+  },
+  "dependencies": {
+    "axios": "^1.9.0"
+  }
+}

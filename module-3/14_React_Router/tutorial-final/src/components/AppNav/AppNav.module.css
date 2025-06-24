@@ -1,0 +1,29 @@
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem 0;
+  font-size: 1.5rem;
+}
+
+.nav-light {
+  color: #000000;
+  background-color: #d2ffbd;
+}
+
+.nav-dark {
+  color: #ffffff;
+  background-color: #333333;
+}
+
+.link {
+  color: #0505f0;
+  text-decoration: none;
+}
+
+.link:hover {
+  background-color: rgba(136, 193, 231, 0.5);
+  text-decoration: underline;
+  color: #0000ff;
+}

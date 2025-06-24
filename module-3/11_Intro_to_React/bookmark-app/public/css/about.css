@@ -1,0 +1,33 @@
+/*
+ * This stylesheet holds styles used only on the static about page.
+ */
+p, ul, ol {
+    margin-bottom: 1.5rem;
+}
+li {
+    margin-bottom: 0.5rem;
+}
+
+.about-section {
+    border: 1px solid rgba(136, 193, 231, 0.7);
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    max-width: 60rem;
+}
+
+figure {
+    width: 80%;
+    margin: auto;
+}
+
+figure figcaption {
+    text-align: center;
+    font-weight: bold;
+    color: #6592af;
+}
+.screenshot {
+    max-width: 100%;
+    border: 1px solid rgba(136, 193, 231, 0.7);
+    margin-bottom: 0.5rem;
+}

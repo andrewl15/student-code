@@ -1,0 +1,77 @@
+Bug 1
+-----
+Class where bug was found:
+StringBits
+Description of bug root cause:
+if check is incorrectly checking if modulo is 1 which
+would be odd numbers, we want the even numbers
+Description of how bug was fixed:
+instead of i % 2 == 1
+we want == 0 for even numbers
+Description of test added to catch bug:
+Entering the string "Hello" should return "Hlo"
+but returned "el" instead
+
+Bug 2
+-----
+Class where bug was found:
+WordCount
+Description of bug root cause:
+if check incorrectly checking the value in map
+instead of the key being present leading to incorrect logic
+Description of how bug was fixed:
+instead of .containsValue we use .containsKey
+to see if the key is present in the array
+Description of test added to catch bug:
+array used was:testArray = new String[]{"Andrew","Bill","Steve","Andrew"};
+which should come back to "Andrew" having a value of 2 in the map
+
+
+Bug 3
+-----
+Class where bug was found:
+Finder
+Description of bug root cause:
+Method cannot handle null inputs or null values in list
+neither that or when the first index is null
+Description of how bug was fixed:
+create an if to catch an array is initialized to null
+and to catch if a value is null
+Description of test added to catch bug:
+add an if to see if the list is null and return null
+if it is
+for each loop add a catcht o see if value is null, if find one
+just continue the loop
+
+Bug 4
+-----
+Class where bug was found: Font Times
+Description of bug root cause:
+given a string of length 3 and any integer, the
+method returns n-1 times instead of n
+Description of how bug was fixed:
+the for loop must loop to i < n instead of i < n - 1
+Description of test added to catch bug:
+testString given was "abc" testInt was 3
+expected output was "abcabcabc"
+
+Bug 5
+-----
+Class where bug was found: Less 20
+Description of bug root cause:
+this.n incorrectly identifies the multiples
+Description of how bug was fixed:
+this.n must be replaced with just n
+Description of test added to catch bug:
+the test int was 39 which should return true but was false
+
+Bug 6
+-----
+Class where bug was found:Lucky13
+Description of bug root cause:
+the if statement was checking for a
+1 and 3 on the same index which is impossible
+Description of how bug was fixed:
+instead of an && use an ||
+Description of test added to catch bug:
+any test array that had a 1 or 3 or both would fail

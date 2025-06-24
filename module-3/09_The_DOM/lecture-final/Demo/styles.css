@@ -1,0 +1,23 @@
+body {
+    background-color: limegreen;
+}
+
+table > tr > td {
+    background-color: red;
+}
+
+#main-content {
+    background-color: grey;
+}
+
+td {
+    color: blue;
+}
+
+.important {
+    background-color: darksalmon;
+}
+
+.unimportant {
+    background-color: grey;
+}

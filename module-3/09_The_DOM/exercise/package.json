@@ -1,0 +1,22 @@
+{
+  "name": "dom-exercise",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "cypress": "sleep 2 && cypress open --e2e --browser electron",
+    "cypress-headless": "sleep 2 && cypress run --e2e",
+    "server": "node server/server.js",
+    "test": "start-server-and-test server http://localhost:3000/shoppinglists cypress",
+    "test-headless": "start-server-and-test server http://localhost:3000/shoppinglists cypress-headless"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "axios": "1.7.7",
+    "cors": "^2.8.5",
+    "cypress": "12.17.4",
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "start-server-and-test": "^2.0.9"
+  }
+}

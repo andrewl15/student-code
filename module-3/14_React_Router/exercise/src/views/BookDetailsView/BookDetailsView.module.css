@@ -1,0 +1,8 @@
+.author-list {
+  font-size: 1.2rem;
+}
+
+.author-list span, .author-list a {
+  display: block;
+  margin-bottom: 0.5rem;
+}

@@ -1,0 +1,20 @@
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav a {
+  text-decoration: none;
+  color: rgb(11, 159, 44);
+  font-size: 1rem;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+  color: rgb(8, 211, 52);
+  cursor: pointer;
+}

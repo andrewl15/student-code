@@ -1,0 +1,9 @@
+.header-grid {
+  display: grid;
+  grid-template-columns: 3fr 50px minmax(150px, 1fr);
+  grid-template-rows: 40px;
+}
+
+.info-grid {
+  grid-column: 1 / 2;
+}

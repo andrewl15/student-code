@@ -1,0 +1,34 @@
+.movie-title {
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* Layout */
+.table-full {
+  width: 100%;
+}
+
+.view-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+/* Buttons */
+button {
+  background-color: transparent;
+  border: none;
+  font-size: inherit;
+  padding: 0;
+  margin-right: 0.5rem;
+  width: 100%;
+}
+
+.like-button {
+  color: rgba(34, 31, 189, 0.808);
+}
+
+.like-button:hover {
+  font-weight: bold;
+}

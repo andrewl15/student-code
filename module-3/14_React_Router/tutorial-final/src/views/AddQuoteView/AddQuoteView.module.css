@@ -1,0 +1,16 @@
+.add-quote-view {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 25rem;
+    margin: auto;
+    padding-top: 1rem;
+}
+
+.form-button {
+    text-align: center;
+    margin: auto;
+    display: block;
+    margin-top: 1rem;
+}

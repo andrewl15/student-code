@@ -1,0 +1,71 @@
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.quote, .quote-even, .quote-odd {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  height: 3rem;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+}
+
+.quote p, .quote-even p, .quote-odd p {
+  margin: 0;
+  padding: 2rem;
+  font-size: 0.8rem;
+  text-align: center;
+  width: 100%;
+}
+
+.quote-even {
+  background-color: #008db7;
+}
+
+.quote, .quote-odd {
+  background-color: #b8ff97;
+}
+
+.quote-even p {
+  color: #b8ff97;
+}
+
+.quote p, .quote-odd p {
+  color: #008db7;
+}
+
+.author {
+  text-align: right;
+  font-weight: bold;
+}
+
+.likesCounter {
+  padding: 0;
+  text-align: center;
+  margin: 0;
+  font-size: 0.8rem;
+  color: #008db7;
+  width: 100%;
+}
+
+.icon-favorite {
+  color: #ffa3a3;
+  font-size: 2rem;
+}
+
+.icon-favorite:hover {
+  color: #e92121;
+  cursor: pointer;
+}
+
+.icon-favorite-active {
+  color: #ff0000;
+}

@@ -1,0 +1,17 @@
+body {
+  margin: 0 auto;
+  padding: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+button.clicked {
+  background-color: lightblue;
+}
+
+.emphasized {
+  font-style: italic;
+}

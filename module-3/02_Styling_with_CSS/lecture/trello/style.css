@@ -1,0 +1,102 @@
+main {
+    margin-top: 50px;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    background-image: linear-gradient(#858c90, #bbb);
+    background-attachment: fixed;
+}
+
+.trello-list{
+    display: inline-block;
+    width: 300px;
+    background-color: #bbb;
+    border-radius: 2px 3px;
+    vertical-align: top;
+    margin-right: 10px;
+}
+
+.trello-list ol {
+    padding-left: 0;
+    margin-bottom: 0px;
+}
+
+.trello-list li{
+    padding: 10px;
+    border-radius: 1px;
+    background-color: rgb(255, 255, 255);
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+}
+.trello-list li:last-child {
+    margin-bottom: 0px;
+}
+
+.trello-list > h2 {
+    margin-left: 8px;
+    font-weight: bold;
+}
+
+.trello-list li:hover{
+    background-color: #f5f6f7;
+    color: #092d42;
+}
+
+div.trello-list > a {
+    display: block;
+    color: #888;
+    font-size: 0.85rem;
+    padding: 5px;
+    text-decoration: none;
+}
+div.trello-list > a:hover {
+    background-color: rgba(9,45,66,0.1);
+}
+
+.label {
+    display: inline-block;
+    width: 35px;
+    height: 8px;
+    border-radius: 3px;
+}
+
+.label.general {
+    background-color: orange;
+}
+.label.pathway {
+    background-color: red;
+}
+.label.individual {
+    background-color: green;
+}
+.label.pair {
+    background-color: teal;
+}
+
+header {
+    color: rgba(255,255,255,0.8);
+    height: 50px;
+    top: 0;
+    position: fixed;
+}
+header > h1, header > p {
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 20px;
+    margin: 0px;
+}
+
+header > h1 {
+    text-transform: uppercase;
+    
+}
+header > p {
+    border-right: 1px solid rgba(255,255,255,0.5);
+
+}
+header > p:last-child {
+    padding-left: 20px;
+}

@@ -1,0 +1,15 @@
+main {
+    display: flex;
+    justify-content: space-around;
+    border: 2px limegreen solid;
+    align-items: center;
+    flex-wrap: wrap;
+    /* flex-direction: column-reverse; */
+}
+
+p {
+    border: 1px black solid;
+    padding: 25px;
+    flex-basis: 50px;
+    /* margin: 5px; */
+}

@@ -1,0 +1,11 @@
+.counter-box {
+  border: solid gray 2px;
+  border-radius: 5px;
+  padding: 0 10px 10px;
+  margin-bottom: 10px;
+}
+
+.counter-box div:first-of-type {
+  padding-bottom: 15px;
+  border-bottom: solid gray 1px;
+}

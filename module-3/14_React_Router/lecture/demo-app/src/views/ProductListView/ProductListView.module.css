@@ -1,0 +1,35 @@
+.product-list article {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 75% 25;
+  grid-template-areas:
+    "name type"
+    "name price";
+  padding: 15px 0;
+  border-bottom: black solid 1px;
+}
+
+.product-name {
+  grid-area: name;
+  font-size: 1.5rem;
+  margin: auto 0;
+}
+
+.product-price {
+  grid-area: price;
+  text-align: right;
+  font-size: 1.2rem;
+  line-height: normal;
+}
+
+.product-type {
+  grid-area: type;
+  text-align: right;
+  font-size: 1.2rem;
+  line-height: normal;
+}
+
+.product-list a {
+  text-decoration: none;
+  color: #007bff;
+}

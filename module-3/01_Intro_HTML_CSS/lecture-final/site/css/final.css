@@ -1,0 +1,16 @@
+img {
+    /* give both height and width, image may be distorted */
+    /* give just one, and the browser will resize proportionally */
+    height: 200px;
+    /* width: 200px; */
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: ivory;
+}
+
+h1 {
+    font-size: 64px;
+    color: cornflowerblue;
+}

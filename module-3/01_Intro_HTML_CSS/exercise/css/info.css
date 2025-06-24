@@ -1,0 +1,13 @@
+header {
+    text-align: center;
+}
+
+body {
+    background-color: rgb(45, 45, 45);
+    color: rgb(246, 241, 233);
+    font-family: sans-serif;
+}
+
+form {
+    background-color: black;
+}

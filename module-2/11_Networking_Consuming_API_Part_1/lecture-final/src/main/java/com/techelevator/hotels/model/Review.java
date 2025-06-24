@@ -1,0 +1,71 @@
+package com.techelevator.hotels.model;
+
+public class Review {
+    private int hotelId;
+    private String title;
+    private String review;
+    private String author;
+    private int stars;
+    private int totalRooms;
+
+    public int getTotalRooms() {
+        return totalRooms;
+    }
+
+    public void setTotalRooms(int totalRooms) {
+        this.totalRooms = totalRooms;
+    }
+
+    public int getHotelId() {
+        return hotelId;
+    }
+
+    public void setHotelId(int hotelId) {
+        this.hotelId = hotelId;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public String getReview() {
+        return review;
+    }
+
+    public void setReview(String review) {
+        this.review = review;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public void setAuthor(String author) {
+        this.author = author;
+    }
+
+    public int getStars() {
+        return stars;
+    }
+
+    public void setStars(int stars) {
+        this.stars = stars;
+    }
+
+    @Override
+    public String toString() {
+        return "\n--------------------------------------------" +
+                "\n Review Details" +
+                "\n--------------------------------------------" +
+                "\n Hotel ID: " + hotelId +
+                "\n Title: " + title +
+                "\n Review: " + review +
+                "\n Author: " + author +
+                "\n Stars: " + stars +
+                "\n Total Rooms: " + totalRooms;
+    }
+}

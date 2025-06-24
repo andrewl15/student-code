@@ -1,0 +1,29 @@
+.movie-title {
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* Layout */
+.table-full {
+  width: 100%;
+}
+
+/* Buttons */
+.like-button {
+  background-color: transparent;
+  border: none;
+  font-size: inherit;
+  padding: 0;
+  margin-right: 0.5rem;
+  width: 100%;
+  color: rgba(34, 31, 189, 0.808);
+}
+
+.like-button:hover {
+  font-weight: bold;
+}
+
+.like-cell {
+  text-align: center;
+  min-width: 80px;
+}

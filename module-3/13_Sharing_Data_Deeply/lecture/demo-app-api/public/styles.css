@@ -1,0 +1,38 @@
+body {
+  margin: 0 auto;
+  padding: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+.icon-button {
+  background-color: transparent;
+  border: none;
+  font-size: inherit;
+  padding: 0;
+  margin-right: 0.5rem;
+}
+
+input, select {
+  padding: 0.5rem;
+}
+
+input[type="date"] {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav button {
+  background-color: #1850b9;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  margin-right: 10px;
+}
+
+nav button.active {
+  border: #092353 2px solid;
+}

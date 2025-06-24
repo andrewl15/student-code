@@ -1,0 +1,13 @@
+.book-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  width: 100%;
+  max-width: 900px;
+}
+
+.like-counter, .total-counter {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 16px;
+}

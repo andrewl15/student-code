@@ -1,0 +1,45 @@
+.reservation-list table {
+  margin-top: 1rem;
+  border-collapse: collapse;
+}
+
+.reservation-list th, .reservation-list td {
+  padding: 0.5rem 1.5rem;
+  text-align: left;
+}
+
+.reservation-list th {
+  background-color: #f2f2f2;
+}
+
+.reservation-list tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.reservation-list tr:hover {
+  background-color: #e0e0e0;
+}
+
+.edit-button, .delete-button {
+  color: white;
+  border: none;
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+}
+
+.edit-button {
+  background-color: #2fa71f;
+  margin-right: 0.5rem;
+}
+
+.edit-button:hover {
+  background-color: #2ad414;
+}
+
+.delete-button {
+  background-color: #ff4d4d;
+}
+
+.delete-button:hover {
+  background-color: #ee1313;
+}

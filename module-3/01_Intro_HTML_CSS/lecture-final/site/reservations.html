@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bits & Bytes -- Reservations</title>
+    <link rel="stylesheet" href="./css/final.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Bits & Bytes</h1>
+      <p>Welcome to the internet's best restaurant.</p>
+    </header>
+    <main>
+      <h2>Reservation Form</h2>
+      <form method="POST" action="/api/reservations">
+        <div>
+          <label for="reservationName">Name: </label>
+          <input
+            id="reservationName"
+            type="text"
+            placeholder="Enter your name."
+          />
+        </div>
+        <div>
+          <label for="reservationGuests">Number of Guests</label>
+          <input id="reservationGuests" type="number" min="0" max="12"/>
+        </div>
+        <div>
+          <label for="reservationDate">Date: </label>
+          <input id="reservationDate" type="date" />
+        </div>
+        <div>
+          <label for="reservationTime">Time: </label>
+          <input type="time" id="reservationTime" />
+        </div>
+        <div>
+          <label for="specialOccasion">Special Occasion?</label>
+          <input type="checkbox" id="specialOccasion"/>
+        </div>
+        <div>
+          <input type="submit">
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Submit Form</title>
+    <link rel="stylesheet" href="./css/info.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Pokemon Fan Page</h1>
+    </header>
+    <main>
+        <h2>Pokemon Form</h2>
+        <form method="POST" action="/api/reservations">
+            <div>
+                <label for="name">Name: </label>
+                <input id="name" name="name" type="text" placeholder="Enter your Pokémon name." required />
+            </div>
+
+            <div>
+                <label for="email">Email: </label>
+                <input id="email" name="email" type="email" placeholder="Enter your email" required/>
+            </div>
+            <div>
+                <label for="date-of-birth">Date of Birth: </label>
+                <input id="date-of-birth" name="date-of-birth" type="date" />
+            </div>
+            <div>
+                <label for="favorite-color">Favorite Color: </label>
+                <input type="color" id="favorite-color" name="favorite-color"/>
+            </div>
+            <div>
+                <label for="lucky-number">Lucky Number?</label>
+                <input id="lucky-number" name="lucky-number" type="number"/>
+            </div>
+            <div>
+                <label for="confirmation"></label>
+                <input type="checkbox" name="confirmation" id="confirmation">
+            </div>
+            <div>
+                <input type="submit" name="submit">
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>

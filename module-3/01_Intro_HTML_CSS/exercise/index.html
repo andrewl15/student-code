@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite Pokemon</title>
+    <link rel="stylesheet" href="./css/index.css" />
+</head>
+
+<body>
+    <header>
+        <h1>DS Pokemon Era Fan Page</h1>
+    </header>
+    <main>
+        <section id="image-section">
+            <video autoplay loop muted>
+                <source src="video/video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+    
+            <script>
+                const video = document.getElementById('liveVideo');
+    
+                navigator.mediaDevices.getUserMedia({ video: true, audio: false })
+                    .then(stream => {
+                        video.srcObject = stream;
+                    })
+                    .catch(err => {
+                        console.error("Error accessing webcam:", err);
+                    });
+            </script>
+        </section>
+        <section id="facts-section">
+            <h2>Some Pokemon Movies</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Year Released</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Pokémon: The First Movie</td>
+                        <td>1998</td>
+                    </tr>
+                    <tr>
+                        <td>Pokémon Heroes</td>
+                        <td>2002</td>
+                    </tr>
+                    <tr>
+                        <td>Pokémon: Jirachi, Wish Maker</td>
+                        <td>2003</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="quotes-section">
+            <h2>Memorable Quotes</h2>
+            <blockquote>"I see now that the circumstances of one's birth are irrelevant. It is what you do with the gift
+                of life that determines who you are."</blockquote>
+            <blockquote>"Even though you're far away, I feel like you're close by... I’ll always remember you."
+            </blockquote>
+            <blockquote>"When the Millennium Comet returns, I’ll be here… waiting for you."</blockquote>
+        </section>
+        <section id="links-section">
+            <h2>Links to Pokemon Stuff</h2>
+            <ul>
+                <li><a href="https://pokemondb.net/">Pokemon DB</a></li>
+                <li><a href="https://pokemonshowdown.com/">Pokemon Showdown</a></li>
+                <li><a href="https://db.pokemongohub.net/">Pokemon GO DB</a></li>
+            </ul>
+        </section>
+    </main>
+</body>
+
+</html>

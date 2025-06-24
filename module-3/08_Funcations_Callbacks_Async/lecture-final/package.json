@@ -1,0 +1,20 @@
+{
+  "name": "js-essentials-pt2-lecture",
+  "version": "1.0.0",
+  "main": "lecture.js",
+  "type": "module",
+  "scripts": {
+    "lecture": "node lecture.js",
+    "mathGame": "node math_game/app.js",
+    "server": "node server/server.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "express": "^4.21.1",
+    "readline-sync": "^1.4.10"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

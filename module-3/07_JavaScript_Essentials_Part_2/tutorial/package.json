@@ -1,0 +1,12 @@
+{
+  "name": "js-essentials-pt2-tutorial",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}

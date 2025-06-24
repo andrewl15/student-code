@@ -1,0 +1,7 @@
+.pageContent {
+  flex: 1;
+  padding: 1rem;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  overflow-y: auto;
+}

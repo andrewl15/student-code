@@ -1,0 +1,10 @@
+Java is an IEEE is a top 10 language with a spectrum of 100.0
+C is an IEEE is a top 10 language with a spectrum of 99.9
+C++ is an IEEE is a top 10 language with a spectrum of 99.4
+Python is an IEEE is a top 10 language with a spectrum of 96.5
+C# is an IEEE is a top 10 language with a spectrum of 91.3
+R is an IEEE is a top 10 language with a spectrum of 84.8
+PHP is an IEEE is a top 10 language with a spectrum of 84.5
+JavaScript is an IEEE is a top 10 language with a spectrum of 83.0
+Ruby is an IEEE is a top 10 language with a spectrum of 76.2
+Matlab is an IEEE is a top 10 language with a spectrum of 72.4

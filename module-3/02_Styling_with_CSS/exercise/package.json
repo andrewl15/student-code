@@ -1,0 +1,12 @@
+{
+  "name": "styling-with-css-exercise",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "cypress open --e2e --browser electron",
+    "test-headless": "cypress run --e2e"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "12.17.4"
+  }
+}

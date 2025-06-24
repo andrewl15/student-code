@@ -1,0 +1,36 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background: #f8f9fa;
+  min-height: 100vh;
+}
+
+.header {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+nav .link {
+  background: none;
+  color: #007bff;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+nav .link.active {
+  background: #007bff;
+  color: #fff;
+}

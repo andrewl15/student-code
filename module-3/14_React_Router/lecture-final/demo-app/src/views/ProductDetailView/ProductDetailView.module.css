@@ -1,0 +1,26 @@
+.product-type, .product-price {
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.product-description {
+  font-size: 1.2rem;
+  margin: 20px 0;
+}
+
+.product-detail aside {
+  font-size: 1.2rem;
+  text-align: right;
+}
+
+.product-detail aside a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.product-detail aside a:hover {
+  text-decoration: underline;
+  color: tomato
+}

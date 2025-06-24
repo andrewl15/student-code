@@ -1,0 +1,13 @@
+.author-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: 900px;
+}
+
+.author-counter {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 16px;
+}

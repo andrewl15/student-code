@@ -1,0 +1,53 @@
+.quote {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  height: 3rem;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  background-color: #b8ff97;
+  border-radius: 0.5rem;
+}
+
+.quote p {
+  margin: 0;
+  padding: 2rem;
+  font-size: 0.8rem;
+  color: #008db7;
+  text-align: center;
+  width: 100%;
+}
+
+.author {
+  text-align: right;
+  font-weight: bold;
+}
+
+.icon-refresh {
+  color: #86d186;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.icon-refresh:hover {
+  color: #11d111;
+}
+
+.icon-favorite, .icon-favorite-active {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.icon-favorite {
+  color: #ffa3a3;
+}
+
+.icon-favorite:hover {
+  color: #e92121;
+}
+
+.icon-favorite-active {
+  color: #ff0000;
+}

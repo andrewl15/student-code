@@ -1,0 +1,53 @@
+.book-card {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+  border-radius: 10px;
+  background: #f3f3f3;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  align-items: flex-start;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+.cover {
+  width: 100px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.details {
+  flex: 1;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0;
+  padding-bottom: 4px;
+}
+
+.author, .genres, .overview {
+  margin: 4px 0;
+  font-size: 0.9rem;
+  color: #555;
+  padding-bottom: 4px;
+}
+
+.details button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.details button:hover {
+  background: #0056b3;
+}
+
+.details button.liked {
+  background: #a92935; /* Red for liked state */
+}

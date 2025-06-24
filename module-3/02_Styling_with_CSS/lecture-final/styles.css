@@ -1,0 +1,47 @@
+p {
+    background-color: limegreen;
+    /* width: 250px;
+    height: 150px; */
+}
+
+body {
+    margin: 0px;
+}
+
+/* id selector (#) */
+#lincoln {
+    background-color: aqua;
+}
+
+.OrangeBKG {
+    background-color: orange;
+}
+
+.bigBorder {
+    border: double black 16px;
+    padding: 5px 15px;
+    margin: 10px;
+}
+
+section p {
+    color: grey;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+section > p {
+    font-family: 'Courier New', Courier, monospace;
+    /* display: inline; */
+}
+
+#mt:hover {
+    background-color: blue;
+}
+
+span {
+    width: 100px;
+    height: 500px;
+}
+
+.inlineDemo {
+    display: inline-block;
+}

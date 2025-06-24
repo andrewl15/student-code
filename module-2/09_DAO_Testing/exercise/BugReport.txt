@@ -1,0 +1,53 @@
+Bug 1
+-----
+Test that demonstrates problem:
+
+getTimesheetsByEmployeeId_with_valid_employee_id_returns_list_of_timesheets_for_employee
+Expected output:
+
+getTimesheetsByEmployeeId(1) should return a list of size 2
+Actual output:
+
+getTimesheetsByEmployeeId returns a list of timesheets of size 1
+How did you fix this bug?
+
+in the try the if(result.next()) only reads the first input and then stops
+it should be a while loop: while (results.next()) {
+                                           Timesheet timesheet = mapRowToTimesheet(results);
+                                           timesheets.add(timesheet);
+                                       }
+
+Bug 2
+-----
+Test that demonstrates problem:
+createTimesheet_creates_timesheet
+Expected output:
+expects a new timesheet to be created
+Actual output:
+Output had invalid data
+How did you fix this bug?
+Correctly instantiating a new Timesheet object and creating it based on the new Id created by the Query for object
+
+Bug 3
+-----
+Test that demonstrates problem:
+updateTimesheet_updates_timesheet
+Expected output:
+false
+Actual output:
+true
+How did you fix this bug?
+the SQL statement was not updating the billable field
+and the jdbcTemplate did not include the isBillable() call
+
+Bug 4
+-----
+Test that demonstrates problem:
+getTimesheetsByProjectId_with_valid_project_id_returns__list_of_timesheets
+Expected output:
+getTimesheetsByProjectId(1)
+a list of three timesheets based on id:1
+Actual output:
+returned a list of size 2
+How did you fix this bug?
+type in the where clause of the select statement incorrectly choosing employee_id instead of project_id

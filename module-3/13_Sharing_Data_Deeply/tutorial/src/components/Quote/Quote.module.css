@@ -1,0 +1,45 @@
+.quote {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  height: 3rem;
+  padding: 0.5rem;
+  color: #008db7;
+  background-color: #b8ff97;
+  border-radius: 0.5rem;
+}
+
+.quote p {
+  margin: 0;
+  padding: 2rem;
+  font-size: 0.8rem;
+  text-align: center;
+  width: 100%;
+}
+
+.author{
+  text-align: right;
+  font-weight: bold;
+}
+
+.icon-refresh {
+  color: #86d186;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.icon-refresh:hover {
+  color: #11d111;
+}
+
+.quote-light {
+  background-color: #b8ff97;
+  color: #008db7
+}
+
+.quote-dark {
+  background-color: #2d2d2d;
+  color: #ffffff;
+}

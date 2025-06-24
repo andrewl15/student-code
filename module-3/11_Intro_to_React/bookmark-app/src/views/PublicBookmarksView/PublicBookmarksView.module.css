@@ -1,0 +1,53 @@
+/* Layout */
+.table-full {
+  width: 100%;
+}
+
+.table-full td:last-child {
+  text-align: right;
+}
+
+.view-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+/* Buttons */
+.report-button {
+  color: rgb(0, 0, 255);
+}
+
+.report-button-inactive {
+  color: rgb(100, 100, 100);
+}
+
+.report-button-inactive:hover {
+  cursor: default;
+}
+
+/* Notifications */
+.notifications {
+  margin-bottom: 1rem;
+  max-width: 750px;
+}
+
+.alert {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  border-width: 1px;
+  border-style: solid;
+  padding: 0.5rem;
+}
+
+.error {
+  color: #842029;
+  background-color: #f8d7da;
+  border-color: #f5c2c7;
+}
+
+.message {
+  margin-right: 1rem;
+}
